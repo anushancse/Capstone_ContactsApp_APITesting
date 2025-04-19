@@ -10,6 +10,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class AddContact {
+	
 	String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODAyOTNhNmU4NmZiNzAwMTU5YWE3NTQiLCJpYXQiOjE3NDUwNjAwNjV9.zzc-W-2Xcqjfs-dgZ9BECg2zL6d_jdRoMPHFFTvoQ3Q";
   @Test
   public void addcontact() {
