@@ -1,17 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-19T21:05:51 IST" name="Default suite" finished-at="2025-04-19T21:05:56 IST" duration-ms="4920">
+  <suite started-at="2025-04-19T21:45:39 IST" name="Default suite" finished-at="2025-04-19T21:46:01 IST" duration-ms="22050">
     <groups>
     </groups>
-    <test started-at="2025-04-19T21:05:51 IST" name="Default test" finished-at="2025-04-19T21:05:56 IST" duration-ms="4920">
+    <test started-at="2025-04-19T21:45:39 IST" name="Default test" finished-at="2025-04-19T21:46:01 IST" duration-ms="22050">
+      <class name="com.anushancse.contactsapptesting.apitesting.AddContact">
+        <test-method signature="addcontact()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.AddContact@1e044120]" started-at="2025-04-19T21:45:45 IST" name="addcontact" finished-at="2025-04-19T21:45:48 IST" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcontact -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.AddContact -->
+      <class name="com.anushancse.contactsapptesting.apitesting.LogoutUser">
+        <test-method signature="logout()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.LogoutUser@6865c751]" started-at="2025-04-19T21:45:39 IST" name="logout" finished-at="2025-04-19T21:45:45 IST" duration-ms="6498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.LogoutUser -->
+      <class name="com.anushancse.contactsapptesting.apitesting.UpdateContact1">
+        <test-method signature="updateUserBypatch()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.UpdateContact1@2cf23c81]" started-at="2025-04-19T21:45:48 IST" name="updateUserBypatch" finished-at="2025-04-19T21:45:49 IST" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserBypatch -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.UpdateContact1 -->
+      <class name="com.anushancse.contactsapptesting.apitesting.UpdateContact">
+        <test-method signature="updatingUser()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.UpdateContact@35fe2125]" started-at="2025-04-19T21:45:51 IST" name="updatingUser" finished-at="2025-04-19T21:45:54 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingUser -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.UpdateContact -->
+      <class name="com.anushancse.contactsapptesting.apitesting.AddNewUser">
+        <test-method signature="PostRequest()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.AddNewUser@3624da92]" started-at="2025-04-19T21:45:49 IST" name="PostRequest" finished-at="2025-04-19T21:45:51 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostRequest -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.AddNewUser -->
+      <class name="com.anushancse.contactsapptesting.apitesting.LogInUser">
+        <test-method signature="postlogin()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.LogInUser@34645867]" started-at="2025-04-19T21:45:55 IST" name="postlogin" finished-at="2025-04-19T21:45:57 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postlogin -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.LogInUser -->
+      <class name="com.anushancse.contactsapptesting.apitesting.GetuserProfile">
+        <test-method signature="GetUserDetails()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.GetuserProfile@94f6bfb]" started-at="2025-04-19T21:45:54 IST" name="GetUserDetails" finished-at="2025-04-19T21:45:55 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserDetails -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.GetuserProfile -->
+      <class name="com.anushancse.contactsapptesting.apitesting.GetContactList">
+        <test-method signature="specificUser()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.GetContactList@2484f433]" started-at="2025-04-19T21:45:57 IST" name="specificUser" finished-at="2025-04-19T21:45:58 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specificUser -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.GetContactList -->
       <class name="com.anushancse.contactsapptesting.apitesting.UpdateUser">
-        <test-method signature="patchRequest()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.UpdateUser@dd8ba08]" started-at="2025-04-19T21:05:51 IST" name="patchRequest" finished-at="2025-04-19T21:05:56 IST" duration-ms="4846" status="PASS">
+        <test-method signature="patchRequest()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.UpdateUser@60b71e8f]" started-at="2025-04-19T21:45:58 IST" name="patchRequest" finished-at="2025-04-19T21:45:59 IST" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchRequest -->
       </class> <!-- com.anushancse.contactsapptesting.apitesting.UpdateUser -->
+      <class name="com.anushancse.contactsapptesting.apitesting.GetContact">
+        <test-method signature="getContact()[pri:0, instance:com.anushancse.contactsapptesting.apitesting.GetContact@1255b1d1]" started-at="2025-04-19T21:45:59 IST" name="getContact" finished-at="2025-04-19T21:46:01 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContact -->
+      </class> <!-- com.anushancse.contactsapptesting.apitesting.GetContact -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

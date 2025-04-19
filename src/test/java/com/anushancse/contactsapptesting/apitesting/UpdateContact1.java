@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 public class UpdateContact1 {
   @Test
   public void updateUserBypatch() {
-	  String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODAyOTNhNmU4NmZiNzAwMTU5YWE3NTQiLCJpYXQiOjE3NDUwNzY4ODd9.cLl5PJ7CpQFrCiyWwuuT3jvds-7u0QmuuLMbniksFrc";
+	  String token ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODAyOTNhNmU4NmZiNzAwMTU5YWE3NTQiLCJpYXQiOjE3NDUwNzkyOTR9.nLkSIHCyYPGDkPiS0mK0hfVL8syxKkVToW9DZWIyUNU";
 	  String baseURL = "https://thinking-tester-contact-list.herokuapp.com/contacts/6803847e7ea1ff0015adfa11";
       Map<String, Object> data = new HashMap<>();
 	          data.put("firstName","Anna");

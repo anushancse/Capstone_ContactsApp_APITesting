@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class UpdateUser {
   @Test
   public void patchRequest() {
-	  String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODAyOTNhNmU4NmZiNzAwMTU5YWE3NTQiLCJpYXQiOjE3NDUwNzY4ODd9.cLl5PJ7CpQFrCiyWwuuT3jvds-7u0QmuuLMbniksFrc";
+	  String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODAyOTNhNmU4NmZiNzAwMTU5YWE3NTQiLCJpYXQiOjE3NDUwNzkyOTR9.nLkSIHCyYPGDkPiS0mK0hfVL8syxKkVToW9DZWIyUNU";
 	  String baseURL = "https://thinking-tester-contact-list.herokuapp.com/users/me";
       Map<String, Object> data = new HashMap<>();
 	          data.put("firstName","Updated");
